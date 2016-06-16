@@ -11,6 +11,6 @@ Find the application in place:
 
 Please consider citing this app, when you use the data for your research:
 
-XYZ
+Haeni Matthias, Schönbeck Leonie, Gessler Arthur, Schaub Marcus. 2016. MODOEKvis: R Shiny visualisation tool for the Model Ecosystem Facility (MODOEK). Zenodo. [10.5281/zenodo.55742](https://zenodo.org/record/55742 "https://zenodo.org/record/55742").
 
 Please direct your comments and questions directly to Matthias Haeni ([matthias.haeni@wsl.ch](mailto:matthias.haeni@wsl.ch "matthias.haeni@wsl.ch"), the programmer of this application), Marcus Schaub ([marcus.schaub@wsl.ch](mailto:marcus.schaub@wsl.ch "marcus.schaub@wsl.ch"), the principal investigator of MODOEK), or to Leonie Schönbeck ([leonie.schoenbeck@wsl.ch](mailto:leonie.schoenbeck@wsl.ch "leonie.schoenbeck@wsl.ch"), the current PhD student conducting the research).
