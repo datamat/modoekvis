@@ -1,7 +1,7 @@
 # MODOEKvis
 MODOEKvis is a visualisation tool written with R Shiny for the Model Ecosystem Facility (**MODOEK**) at the Swiss Federal Research Institute WSL. The data is sourced from the Oracle Database hosted at the WSL, processed with python and R on an Ubuntu machine, and finally published with an R Shiny application.
 
-The tool displays the latest 2016 data, i.e. relative soil water contents (RWC, %) and soil temperatures (°C) from the 16 MODOEK chambers. Read more about the MODOEK and our ongoing research:
+The tool displays the latest 2016 data, i.e. relative soil water contents (RWC, %) and soil temperatures (°C) from the quarters of each of the 16 MODOEK chambers. Read more about the MODOEK and our ongoing research:
 
 * [http://www.wsl.ch/fe/walddynamik/projekte/modoek/index_EN](http://www.wsl.ch/fe/walddynamik/projekte/modoek/index_EN "MODOEK")
 
