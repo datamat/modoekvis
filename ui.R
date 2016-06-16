@@ -2,60 +2,40 @@ library(dygraphs)
 
 shinyUI(fixedPage(
   tags$head(
-    tags$style(type="text/css", ".container { width: 750px; }")
+    tags$style(type="text/css",".container { width: 750px; }")
   ),
   titlePanel("MODOEK data"),
   fixedRow(
-    column(12,p(HTML("List of figures:<br>",
-                     "<a href='#rwc'><b>Relative Water Contents:</b></a> ",
-                     "<a href='#fig1'>Pine 25 cm</a>, ",
-                     "<a href='#fig2'>Oak 25 cm</a>, ",
-                     "<a href='#fig3'>Pine 5 cm</a>, ",
-                     "<a href='#fig4'>Pine 30 cm</a>, ",
-                     "<a href='#fig5'>Oak 5 cm</a>, ",
-                     "<a href='#fig6'>Oak 30 cm</a><br>",
-                     "<a href='#temps'><b>Soil Temperatures:</b></a> ",
-                     "<a href='#fig7'>Pine 25 cm</a>, ",
-                     "<a href='#fig8'>Oak 25 cm</a>, ",
-                     "<a href='#fig9'>Pine 5 cm</a>, ",
-                     "<a href='#fig10'>Pine 30 cm</a>, ",
-                     "<a href='#fig11'>Oak 5 cm</a>, ",
-                     "<a href='#fig12'>Oak 30 cm</a><br><br>",
-                     "The following figures are zoomable in x and y, ",
-                     "the data represented are unvalidated and raw. Have fun!"
-    ))),
     column(12,
-           tags$div(tags$h3("Relative Water Content [%] (RWC)"),id="rwc"),
-           dygraphOutput("fig1",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig2",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig3",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig4",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig5",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig6",width=750),
-           tags$hr(),br(),
-           tags$div(tags$h3("Soil Temperature [°C]"),id="temps"),
-           dygraphOutput("fig7",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig8",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig9",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig10",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig11",width=750),
-           tags$hr(),br(),
-           dygraphOutput("fig12",width=750)
+    selectInput("select",
+                label=h4("List of figures:"),
+                choices=list(
+                  "RWC: Pine 25 cm"=1,
+                  "RWC: Oak 25 cm"=2,
+                  "RWC: Pine 5 cm"=3,
+                  "RWC: Pine 30 cm"=4,
+                  "RWC: Oak 5 cm"=5,
+                  "RWC: Oak 30 cm"=6,
+                  "Soil Temperature: Pine 25 cm"=7,
+                  "Soil Temperature: Oak 25 cm"=8,
+                  "Soil Temperature: Pine 5 cm"=9,
+                  "Soil Temperature: Pine 30 cm"=10,
+                  "Soil Temperature: Oak 5 cm"=11,
+                  "Soil Temperature: Oak 30 cm"=12),
+                selected=1)
     ),
-    column(12,p(HTML("<br><br>Questions/comments, please write to ",
+    column(12,
+           htmlOutput("max"),
+           dygraphOutput("fig",width=750),br()
+    ),
+    column(12,p(HTML("<div style='font-size: x-small;'><br><br>",
+                     "Questions/comments, ",
+                     "please write to ",
                      "<a href='mailto:matthias.haeni@wsl.ch' target='_blank'>",
                      "matthias.haeni@wsl.ch</a> and <a ",
                      "href='mailto:leonie.schoenbeck@wsl.ch' ",
-                     "target='_blank'>leonie.schoenbeck@wsl.ch</a>.<br><br>"
+                     "target='_blank'>leonie.schoenbeck@wsl.ch</a>.<br><br>",
+                     "</div>"
     )))
   )
 ))
