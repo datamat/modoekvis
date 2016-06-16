@@ -12,4 +12,4 @@ Find the application in place:
 Please consider citing this app, when you use the data for your research with the following:
 XYZ
 
-Please direct your comments and questions to [mailto:matthias.haeni@wsl.ch](matthias.haeni@wsl.ch "matthias.haeni@wsl.ch") or
+Please direct your comments and questions to [matthias.haeni@wsl.ch](mailto:matthias.haeni@wsl.ch "matthias.haeni@wsl.ch") or
