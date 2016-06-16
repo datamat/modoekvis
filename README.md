@@ -12,4 +12,4 @@ Find the application in place:
 Please consider citing this app, when you use the data for your research with the following:
 XYZ
 
-Please direct your comments and questions either directly here on github or drop us a line to Matthias Haeni [matthias.haeni@wsl.ch](mailto:matthias.haeni@wsl.ch "matthias.haeni@wsl.ch") or Marcus Schaub [marcus.schaub@wsl.ch](mailto:marcus.schaub@wsl.ch "marcus.schaub@wsl.ch").
+Please direct your comments and questions either directly here on github or drop us a line to Matthias Haeni ([matthias.haeni@wsl.ch](mailto:matthias.haeni@wsl.ch "matthias.haeni@wsl.ch")) or Marcus Schaub ([marcus.schaub@wsl.ch](mailto:marcus.schaub@wsl.ch "marcus.schaub@wsl.ch")).
