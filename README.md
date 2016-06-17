@@ -9,7 +9,7 @@ Find the application in place:
 
 * [https://www.wsl.ch/apps/MODOEK/](https://www.wsl.ch/apps/MODOEK/ "MODOEK data tool")
 
-Please consider citing this app, when you use the data for your research:
+Please cite this app when you use the data for your research with the following reference:
 
 Haeni Matthias, Schönbeck Leonie, Gessler Arthur, Schaub Marcus. 2016. MODOEKvis: R Shiny visualisation tool for the Model Ecosystem Facility (MODOEK). Zenodo. [10.5281/zenodo.55742](https://zenodo.org/record/55742 "https://zenodo.org/record/55742").
 
